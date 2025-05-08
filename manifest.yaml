@@ -1,24 +1,24 @@
 version: 0.0.1
 type: plugin
 author: jingfelix
-name: dify-plugin-pdm-template
+name: bilibili_search
 label:
-  en_US: dify-plugin-pdm-template
-  ja_JP: dify-plugin-pdm-template
-  zh_Hans: dify-plugin-pdm-template
-  pt_BR: dify-plugin-pdm-template
+  en_US: Bilibili Search
+  ja_JP: Bilibili 検索
+  zh_Hans: Bilibili 搜索工具
+  pt_BR: Bilibili Pesquisa
 description:
-  en_US: A Dify plugin template with pdm
-  ja_JP: A Dify plugin template with pdm
-  zh_Hans: A Dify plugin template with pdm
-  pt_BR: A Dify plugin template with pdm
+  en_US: Search or view video information on Bilibili
+  ja_JP: Bilibili の動画を検索または動画情報を表示する
+  zh_Hans: 在 Bilibili 上搜索视频或查看视频信息
+  pt_BR: Pesquisar ou visualizar informações de vídeo no Bilibili
 icon: icon.svg
 resource:
   memory: 268435456
   permission: {}
 plugins:
   tools:
-    - provider/dify-plugin-pdm-template.yaml
+    - provider/bilibili.yaml
 meta:
   version: 0.0.1
   arch:
