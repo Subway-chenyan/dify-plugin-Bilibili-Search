@@ -26,6 +26,7 @@ credentials_for_provider:
       en_US: Get your cookies from Bilibili website after logging in
       zh_Hans: 从已登录的 B站 网页中获取 cookie
       pt_BR: Obtenha seus cookies do site Bilibili após fazer login
+    url: https://github.com/jingfelix/dify-plugin-Bilibili-Search/blob/main/README.md
 tools:
   - tools/bilibili_search.yaml
   - tools/bilibili_get_video_info.yaml
